@@ -44,7 +44,7 @@ int main(int argc,char** argv)
         UImanager->ApplyCommand(command+argv[2]);
     }
     else  {        
-        UImanager->ApplyCommand("/control/execute vis.mac");
+        UImanager->ApplyCommand("/control/execute init_vis.mac");
         ui->SessionStart();
         delete ui;
     }

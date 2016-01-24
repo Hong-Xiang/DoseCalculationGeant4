@@ -44,6 +44,7 @@ target_link_libraries(${PROJECT_NAME} ${Geant4_LIBRARIES})
 # relies on these scripts being in the current working directory.
 #
 set(${PROJECT_NAME}_SCRIPTS
+        init_vis.mac
 	vis.mac
   )
 
